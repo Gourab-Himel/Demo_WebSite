@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutureTech Innovators Conference 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>GourabTech Innovators Conference 2025</h1>
+            <nav>
+                <ul>
+                    <li><a href="#speaker">Speaker</a></li>
+                    <li><a href="#venue">Venue</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <h2>Welcome to GourabTech Innovators Conference 2025</h2>
+            <p>
+                This conference is dedicated to exploring the latest trends in Artificial Intelligence, Robotics,
+                and Emerging Technologies. Entrepreneurs, engineers, students, and technology enthusiasts will greatly
+                benefit from networking, insightful talks, and hands-on sessions with industry leaders.
+            </p>
+        </div>
+    </section>
+
+    <section id="speaker" class="speaker">
+        <div class="container">
+            <h2>Keynote Speaker</h2>
+            <img src="https://via.placeholder.com/300x300.png?text=Dr.+Gourab" alt="Dr. Gourab">
+            <h3>Dr. Gourab</h3>
+            <p>
+                Dr. Gourab is a world-renowned AI researcher and CEO of InnovateAI Labs. She has led groundbreaking work
+                in neural networks and ethical AI development.
+            </p>
+        </div>
+    </section>
+
+    <section id="venue" class="venue">
+        <div class="container">
+            <h2>Venue Details</h2>
+            <p><strong>Location:</strong> Grand Tech Convention Center, 123 Future Blvd, Tech City</p>
+            <img src="https://via.placeholder.com/600x300.png?text=Convention+Center" alt="Convention Center">
+            <p>
+                The venue is equipped with state-of-the-art conference facilities, high-speed WiFi, and easy access to hotels and transportation.
+            </p>
+        </div>
+    </section>
+
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <h2>Conference Schedule</h2>
+            <ul>
+                <li><strong>09:00 AM:</strong> Opening Keynote by Dr. Gourab</li>
+                <li><strong>10:30 AM:</strong> Panel: The Future of Robotics</li>
+                <li><strong>12:00 PM:</strong> Networking Lunch</li>
+                <li><strong>01:30 PM:</strong> Workshop: AI Ethics in Practice</li>
+                <li><strong>03:00 PM:</strong> Closing Remarks</li>
+            </ul>
+        </div>
+    </section>
+    
+
+
+<<section class="register">
+    <div class="container">
+        <h2>Register Now</h2>
+        <p>Don’t miss the opportunity to be part of the FutureTech Innovators Conference 2025!</p>
+        <button class="register-button" onclick="toggleForm()">Register Here</button>
+        
+    </div>
+</section>
+
+<section id="register-form" class="register-form hidden">
+    <div class="container">
+        <h2>Conference Registration Form</h2>
+        
+        <form id="registrationForm" onsubmit="handleForm(event)">
+          <label for="fullname">Full Name:</label><br>
+          <input type="text" id="fullname" name="fullname" required><br><br>
+
+          <label for="email">Email Address:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="organization">Organization:</label><br>
+          <input type="text" id="organization" name="organization"><br><br>
+
+          <label for="tickets">Number of Tickets:</label><br>
+          <select id="tickets" name="tickets">
+           <option value="1">1 Ticket</option>
+           <option value="2">2 Tickets</option>
+           <option value="3">3 Tickets</option>
+           <option value="4">4 Tickets</option>
+           <option value="5">5 Tickets</option>         
+    </select><br><br>
+
+    <button type="submit">Submit Registration</button>
+</form>
+
+<div id="formResult" style="margin-top: 30px; font-weight: bold;"></div>
+
+    </div>
+</section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 GourabTech Innovators Conference | <a href="#speaker">Speaker</a> | <a href="#venue">Venue</a> | <a href="#schedule">Schedule</a></p>
+        </div>
+    </footer>
+</body>
+</html>
